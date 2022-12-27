@@ -1,4 +1,4 @@
-package class36;
+package class37;
 
 public interface Interface {
 }

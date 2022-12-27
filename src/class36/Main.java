@@ -1,4 +1,4 @@
-package class35;
+package class36;
 
 public class Main {
     public static void main(String[] args) {

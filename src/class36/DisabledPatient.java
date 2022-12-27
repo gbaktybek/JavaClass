@@ -1,11 +1,11 @@
-package class35;
+package class36;
 
-public class ChildPatient extends Patient{
+public class DisabledPatient extends Patient{
     public void takeTylenol() {
-        System.out.println("Your recommended dose is 50mg");
+        System.out.println("Your recommended dose is 200mg");
     }
     public double takePayment(double balance, double amountReceived){
-        double discount = 0.1;
+        double discount = 0.2;
         //balance after discount
         balance = balance - balance * discount;
         double remainingBalance;
@@ -13,5 +13,4 @@ public class ChildPatient extends Patient{
 
         return remainingBalance;
     }
-
 }

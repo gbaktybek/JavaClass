@@ -1,4 +1,4 @@
-package class35;
+package class36;
 
 public abstract class Patient {
    public abstract void takeTylenol();

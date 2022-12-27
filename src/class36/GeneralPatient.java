@@ -1,4 +1,4 @@
-package class35;
+package class36;
 
 public class GeneralPatient extends Patient{
     public void takeTylenol() {
