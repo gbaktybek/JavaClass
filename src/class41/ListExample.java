@@ -6,6 +6,7 @@ import java.util.List;
 public class ListExample {
     public static void main(String[] args) {
         List<Integer> listOfData = new ArrayList<>();
+        //List<Integer> listOfData = Arrays.asList(10,3,4,54,34,64);
 
         List<Integer> dynamicList = new ArrayList<>();
         dynamicList.addAll(listOfData);
@@ -32,6 +33,9 @@ public class ListExample {
 
         System.out.println(listOfData);
 
+        System.out.println(listOfData.isEmpty());
+
+        System.out.println(listOfData.removeAll(dynamicList));
 
     }
 }
